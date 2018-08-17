@@ -46,9 +46,9 @@ $(function () {
                     $.each(comment.detail,function (dex,com) {
                       var detail_c ;
                       detail_c= '<tr>' +
-                          '<td>' + com.id + '</td><td>' + com.updatetime + '</td><td>' + com.level + '</td>' +
+                          '<td>' + com.id + '</td><td>' + com.updatetime + '</td><td>' + com.qid + '</td>' +
                           '<td>' + com.times + '</td><td>' + com.score + '</td><td>' + com.comment + '</td>' +
-                          '<td class="delete_new">删除</td>' +
+                          '<td class="delete_new">无</td>' +
                           '</tr>';
                       whole_detail+=detail_c;
                   });
@@ -226,9 +226,10 @@ $(function () {
             data: {
                     qname:name,
                     description:des,
-                    group:groups,
+                    qgroup:groups,
                     level:level_s,
-                    qid:id
+                    qid:id,
+                    maxscore:100
                 },
             success:function () {
                 alert("成功创建！");

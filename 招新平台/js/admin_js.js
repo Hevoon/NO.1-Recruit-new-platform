@@ -93,7 +93,3 @@ $(document).on("click",".detail_back_new",function () {
     $("div.main>div").hide().siblings("div#page_2").show({duration:500});
     $("div#page_2 div.detail_page").hide({duration:500});
 });//返回新人列表
-$(document).on("click",".delete_new",function () {
-    alert("本次操作即将进行");
-    $(this).parent().remove();
-});//删除新人详情列表
