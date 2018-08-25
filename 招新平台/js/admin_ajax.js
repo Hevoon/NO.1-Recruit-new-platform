@@ -205,7 +205,7 @@ $(function () {
         var deleted_id=$(this).parent().children(".id").html();
         console.log(deleted_id);
         $.ajax({
-            url: '/recruit/gly/setPerms',
+            url: '/recruit/gly/delques',
             type: 'POST',
             data:{
                 qid:deleted_id
@@ -227,9 +227,9 @@ $(function () {
                     qname:name,
                     description:des,
                     qgroup:groups,
+                    maxscore:100,
                     level:level_s,
-                    qid:id,
-                    maxscore:100
+                    qid:id
                 },
             success:function () {
                 alert("成功创建！");

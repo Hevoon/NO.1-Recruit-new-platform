@@ -20,8 +20,8 @@
       <file leaf-file-name="admin_ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/admin_ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="160" column="23" lean-forward="true" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
+            <state relative-caret-position="372">
+              <caret line="226" column="31" lean-forward="true" selection-start-line="226" selection-start-column="31" selection-end-line="226" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -29,7 +29,7 @@
       <file leaf-file-name="Administrator page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="372">
               <caret line="147" column="63" selection-start-line="147" selection-start-column="62" selection-end-line="147" selection-end-column="74" />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="admin_js.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/admin_js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
+            <state relative-caret-position="1615">
               <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
@@ -82,8 +82,8 @@
         <option value="C:/AppServ/www/Ch6/php/demo4-post/post1.html" />
         <option value="$PROJECT_DIR$/html/Administrator page.html" />
         <option value="$PROJECT_DIR$/css/admin_css.css" />
-        <option value="$PROJECT_DIR$/js/admin_ajax.js" />
         <option value="$PROJECT_DIR$/js/admin_js.js" />
+        <option value="$PROJECT_DIR$/js/admin_ajax.js" />
       </list>
     </option>
   </component>
@@ -102,8 +102,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="993" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="992" />
     <option name="y" value="10" />
     <option name="width" value="945" />
     <option name="height" value="1090" />
@@ -193,16 +193,17 @@
       <workItem from="1532582619318" duration="218000" />
       <workItem from="1532923834585" duration="73000" />
       <workItem from="1534502620798" duration="2208000" />
+      <workItem from="1535172378409" duration="639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160023000" />
+    <option name="totallyTimeSpent" value="160662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="795" y="8" width="756" height="872" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.45013478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17838542" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50065106" side_tool="true" weight="0.32965517" />
@@ -481,22 +482,22 @@
     <entry file="file://$PROJECT_DIR$/html/new one.html" />
     <entry file="file://$PROJECT_DIR$/js/admin_js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
+        <state relative-caret-position="1615">
           <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="372">
           <caret line="147" column="63" selection-start-line="147" selection-start-column="62" selection-end-line="147" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/admin_ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="160" column="23" lean-forward="true" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
+        <state relative-caret-position="372">
+          <caret line="226" column="31" lean-forward="true" selection-start-line="226" selection-start-column="31" selection-end-line="226" selection-end-column="31" />
         </state>
       </provider>
     </entry>
