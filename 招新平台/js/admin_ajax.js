@@ -3,10 +3,7 @@ $(function () {
     $(".exit").click(function () {
         $.ajax({
             url: '/recruit/logout',
-            type: 'GET',
-            success: function () {
-                console.log("你已经成功退出！");
-            }
+            type: 'GET'
         });
     })
 });//退出
@@ -214,7 +211,7 @@ $(function () {
         $(this).parent().remove();
     });
     //删除题目
-    $("div.main div#page_4 td.aqcreat").click(function () {
+    $(document).on("click","div.main div#page_4 td.aqcreat",function () {
         var id=$("input.aqid").val();
         var name=$("input.aqname").val();
         var des=$("input.aqdes").val();
@@ -233,7 +230,7 @@ $(function () {
                 },
             success:function () {
                 alert("成功创建！");
-                $("div.main div#page_4 td input").val("");
+                $("div.main div#page_4 tr.create  td input").val("");
             }
         });
     });//创建题目与修改题目
@@ -256,7 +253,7 @@ $(function () {
             success: function (rs) {
                 var r = rs.data;
                 $("input#input_id").val("");
-                var html = '<tr><td class="search_name">题目方向:</td><td  class="search_show" id="qs_1">' + r.group + '</td></tr>' +
+                var html = '<tr><td class="search_name">题目方向:</td><td  class="search_show" id="qs_1">' + r.qgroup + '</td></tr>' +
                     '<tr><td class="search_name">题目名称:</td><td  class="search_show" id="qs_2">' + r.qname + '</td></tr>' +
                     '<tr><td class="search_name">题目目的:</td><td  class="search_show" id="qs_3">' + r.description + '</td></tr>' +
                     '<tr><td class="search_name">题目完成者:</td><td class="search_show" id="qs_4">' + r.name + '</td></tr>' +
@@ -268,13 +265,15 @@ $(function () {
             }
         });
         $(document).on("click", "#qs_8", function () {
-            $.ajax({
-                url: '/recruit/download',
-                type: 'POST',
-                data: {
-                    id: ID
-                }
+                var form = $("<form></form>");//定义一个form表单
+                form.attr("method", "POST");
+                form.attr("style","display:none");
+                form.attr("action", "/download");//URL
+                var input = $("<input type='text' name='id' />");
+                input.attr("value",ID );//问题的id号
+                form.append(input);
+                $("body").append(form);//将表单放置在web中
+                form.submit();//表单提交
             });
-        })
     });
 });//改题查询

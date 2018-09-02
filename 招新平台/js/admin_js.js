@@ -9,17 +9,6 @@ $(function () {
         $("div.main>div table tr td").removeClass("focus");//去掉新人列表的focus类
     });
 });//隐藏操作列表
-// $(function(){
-//         $(".team").click(function () {
-//             var index=$(".team").index(this);
-//             $(this).siblings('.team_'+this.id).toggle();
-//             if( $(this).siblings('.team_'+this.id).is(":visible")){
-//                 $("div.main div#page_2 table img").eq(index+1).addClass("team_up");
-//             }else {
-//                 $("div.main div#page_2 table img").eq(index+1).removeClass("team_up");
-//             }
-//         });
-// });//新人列表的收缩
 $(document).ready(function () {
     $(".question").click(function () {
         var index=$(".question").index(this);
@@ -31,17 +20,7 @@ $(document).ready(function () {
         }
     });
 });//题目列表收缩
-// $(function(){
-//     $(".teams").click(function () {
-//         var index=$(".teams").index(this);
-//         $(this).siblings('.team_'+this.id).toggle();
-//         if( $(this).siblings('.team_'+this.id).is(":visible")){
-//             $("div.main div#page_3 table img").eq(index+1).addClass("team_up");
-//         }else {
-//             $("div.main div#page_3 table img").eq(index+1).removeClass("team_up");
-//         }
-//     });
-// });//批改人列表的收缩
+
 $(function () {
     $("div.main >div h3.paging_head span.back_main").click(function () {
         $("div.main>div").hide({duration:500}).siblings("div.page_show").show({duration:500});
