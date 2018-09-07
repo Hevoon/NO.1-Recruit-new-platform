@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8">
     <!--<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,-->
-        <!--user-scalable=no" />-->
+    <!--user-scalable=no" />-->
     <link rel="stylesheet" href="../css/libs/normalize.css">
     <link rel="stylesheet" href="../css/libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/libs/bootstrap/css/bootstrap.css">
@@ -17,9 +17,10 @@
 <header class="header">
     <img src="../images/header.png" alt="工作室logo" class="header_logo">
     <ul class="header_ul">
-        <li class="header_menu header-btn"><a><span class="exit">退出<img src="../images/png/glyphicons-435-redo.png"></span></a></li>
+        <li class="header_menu header-btn"><a><span class="exit">退出<img
+                src="../images/png/glyphicons-435-redo.png"></span></a></li>
         <li class="header_menu header-btn btn_2">
-            <a><img src="../images/admin.jpg" class="img-circle"><span>管理员</span>
+            <a><img src="../images/admin.jpg" class="img-circle">&nbsp;<span>管理员</span>
                 <div class="drop-menu">
                     <ul id="drop-menu">
                         <li class="menu">这</li>
@@ -34,125 +35,266 @@
     </ul>
 </header>
 <div class="middle_page">
-        <img src="../images/admin.jpg" class="middle_img img-circle">
-        <h3>管理员</h3>
-        <ul class="middle_ul">
-            <li class="change_password change"> <img src="../images/png/glyphicons-151-edit.png" class="png" alt="图标"> &nbsp; 修改密码</li>
-            <li class="change_new change "> <img src="../images/png/glyphicons-4-user.png" class="png" alt="图标"> &nbsp; 新人列表</li>
-            <li class="change_teacher change"> <img src="../images/png/glyphicons-4-user.png" class="png" alt="图标"> &nbsp; 批改人列表</li>
-            <li class="change_list change"> <img src="../images/png/glyphicons-517-menu-hamburger.png" class="png" alt="图标"> &nbsp; 题目列表</li>
-            <li class="change_question change"> <img src="../images/png/glyphicons-28-search.png" class="png" alt="图标"> &nbsp; 改题查询</li>
-        </ul>
+    <img src="../images/admin.jpg" class="middle_img img-circle">
+    <h3>管理员</h3>
+    <ul class="middle_ul">
+        <li class="change_password change"><img src="../images/png/glyphicons-151-edit.png" class="png" alt="图标"> &nbsp;
+            修改密码
+        </li>
+        <li class="change_new change "><img src="../images/png/glyphicons-4-user.png" class="png" alt="图标"> &nbsp; 新人列表
+        </li>
+        <li class="change_teacher change"><img src="../images/png/glyphicons-4-user.png" class="png" alt="图标"> &nbsp;
+            批改人列表
+        </li>
+        <li class="change_list change"><img src="../images/png/glyphicons-517-menu-hamburger.png" class="png" alt="图标">
+            &nbsp; 题目列表
+        </li>
+        <li class="change_question change"><img src="../images/png/glyphicons-28-search.png" class="png" alt="图标">
+            &nbsp; 改题查询
+        </li>
+    </ul>
 </div>
 <div class="main">
-        <div class="paging" id="page_1">
-            <h3 class="paging_head"><span class="back_main">主页</span>><span>修改密码</span></h3>
-            <form action="#">
-                <div class="form_div">
+
+    <div class="paging" id="page_1">
+        <h3 class="paging_head"><span class="back_main">主页</span>><span>修改密码</span></h3>
+        <form action="#">
+            <div class="form_div">
                 <label for="old_password">原密码:</label>
-                <input type="password"  id="old_password" class="old_password">
+                <input type="password" id="old_password" class="old_password">
                 <label for="new_password">新密码:</label>
-                <input type="password"  id="new_password" class="old_password">
+                <input type="password" id="new_password" class="old_password">
                 <label for="re_new_password">重复新密码:</label>
-                <input type="password"  id="re_new_password" class="old_password">
+                <input type="password" id="re_new_password" class="old_password">
+            </div>
+            <input value="提交" id="password_submit" class="btn btn-default password_btn">
+        </form>
+    </div>
+
+
+    <div class="paging" id="page_2">
+        <div class="catch">
+        </div>
+        <h3 class="paging_head"><span class="back_main">主页</span>><span>新人列表</span>
+        </h3>
+        <table class="table table-hover main">
+            <thead>
+            <tr>
+                <th>序号<img alt="dir" src="../images/png/glyphicons-67-tags.png" class="head"></th>
+                <th>用户名</th>
+                <th>学号</th>
+                <th>姓名</th>
+                <th>手机</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="paging" id="page_3">
+        <h3 class="paging_head"><span class="back_main">主页</span>><span>批改人列表</span></h3>
+        <span id="old_sub" class="old_sub btn btn-default">保存</span>
+        <button class="correct_add_button btn btn-default">添加</button>
+        <table class="table table-hover correct_table">
+            <thead>
+            <tr>
+                <th>用户名</th>
+                <th>姓名</th>
+                <th>前端</th>
+                <th>后台</th>
+                <th>IOS</th>
+                <th>安卓</th>
+                <th>设计</th>
+                <th>运维</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <div class="create_correct">
+            <h5 class="detail_head">
+                <span class="detail_back_main_correct">主页</span>>
+                <span class="detail_back_new_correct">批改人页面</span>>
+                <span>添加批改人</span>
+                <span class="detail_back_new_correct back">返回</span>
+            </h5>
+            <div id="create_correct_form">
+                <div class="form-group">
+                    <label class="creates">用户名
+                    <input class="correct_username form-control" type="text" placeholder="uesrname">
+                </label>
                 </div>
-                <input type="submit" id="password_submit" class="btn btn-default password_btn">
-            </form>
+                <div class="form-group">
+                    <label class="creates">密码
+                        <input class="correct_password form-control" type="text" placeholder="password">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="creates">手机号
+                        <input class="form-control correct_phone" type="text" placeholder="phone">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="creates">描述
+                        <input class="form-control correct_name" type="text" placeholder="name">
+                    </label>
+                </div>
+                <button class="btn btn-default correct_add">添加</button>
+            </div>
         </div>
-        <div class="paging" id="page_2">
-            <div class="catch">
+
+
+    </div>
+
+
+    <div class="paging" id="page_4">
+
+        <h3 class="paging_head"><span class="back_main">主页</span>><span>题目列表</span></h3>
+        <button class="btn btn-default cc_question">修改/创建题目</button>
+        <table class="table table-hover gquestion">
+            <thead>
+            <tr>
+                <th>方向(ID)</th>
+                <th>题目名称</th>
+                <th>题目目的</th>
+                <th>题目等级</th>
+                <th>题目修改</th>
+                <th>题目删除</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="question" id="q_1">
+                <td colspan="6">前端组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
+            </tr>
+            <tr class="question" id="q_2">
+                <td colspan="6">后台组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
+            </tr>
+            <tr class="question" id="q_3">
+                <td colspan="6">IOS组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
+            </tr>
+            <tr class="question" id="q_4">
+                <td colspan="6">安卓组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
+            </tr>
+            <tr class="question" id="q_5">
+                <td colspan="6">运维组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
+            </tr>
+            <tr class="question" id="q_6">
+                <td colspan="6">设计组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
+            </tr>
+            <tr class="question" id="q_7">
+                <td colspan="6">产品组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="create_question">
+            <h5 class="detail_head">
+                <span class="detail_back_mains">主页</span>>
+                <span class="detail_back_news">题目列表</span>>
+                <span>创建题目</span>
+                <span class="detail_back_news back">返回</span>
+            </h5>
+            <div id="create">
+                <div class="form-group"><label class="creates">名称
+                    <input class="aqname form-control" type="text" placeholder="name">
+                </label>
+                </div>
+                <div class="form-group">
+                    <label class="creates">等级
+                        <select class="form-control alevel">
+                            <option value="easy">简单</option>
+                            <option value="common">中等</option>
+                            <option value="hard">困难</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="creates">组别
+                        <select class="form-control aqgroup">
+                            <option value="front">前端</option>
+                            <option value="background">后台</option>
+                            <option value="ios">IOS</option>
+                            <option value="android">安卓</option>
+                            <option value="operation">经营</option>
+                            <option value="design">设计</option>
+                            <option value="product">产品</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="creates">描述
+                        <input class="aqdes form-control" type="text" placeholder="description">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputFile">File input</label>
+                    <input type="file" id="exampleInputFile" class="afile">
+                    <p class="help-block">请选择一个文件</p>
+                </div>
+                <button class="btn btn-default aqcreat">提交</button>
+            </div>
         </div>
-            <h3 class="paging_head"><span class="back_main">主页</span>><span>新人列表</span></h3>
-            <table class="table table-hover main">
-                <thead>
-                <tr><th>序号<img alt="dir" src="../images/png/glyphicons-67-tags.png" class="head"></th>
-                    <th>用户名</th><th>学号</th><th>姓名</th><th>手机</th><th>操作</th></tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+        <div class="catch_s">
         </div>
-        <div class="paging" id="page_3">
-            <h3 class="paging_head"><span class="back_main">主页</span>><span>批改人列表</span></h3>
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th>用户名</th><th>姓名</th><th>前端</th><th>后台</th><th>IOS</th><th>安卓</th><th>设计</th><th>运维</th><th>操作</th>
-                </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-            <span id="old_sub" class="old_sub">保存</span>
-        </div>
-        <div class="paging" id="page_4">
-            <h3 class="paging_head"><span class="back_main">主页</span>><span>题目列表</span></h3>
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th>方向(ID)</th><th>题目名称</th><th>题目目的</th><th>题目等级</th><th>题目修改</th><th>题目删除</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr class="question" id="q_1">
-                    <td colspan="6">前端组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
-                </tr>
-                <tr class="question" id="q_2">
-                    <td colspan="6">后台组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
-                </tr>
-                <tr class="question" id="q_3">
-                    <td colspan="6">IOS组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
-                </tr>
-                <tr class="question" id="q_4">
-                    <td colspan="6">安卓组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
-                </tr>
-                <tr class="question" id="q_5">
-                    <td colspan="6">运维组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
-                </tr>
-                <tr class="question" id="q_6">
-                    <td colspan="6">设计组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
-                </tr>
-                <tr class="question" id="q_7">
-                    <td colspan="6">产品组 <img alt="up" class="up" src="../images/png/glyphicons-224-chevron-right.png"></td>
-                </tr>
-                <tr id="create">
-                    <td >ID<input class="aqid" type="text"></td><td >名称<input class="aqname" type="text"></td>
-                    <td >描述<input class="aqdes" type="text"></td><td >等级<input class="alevel" type="text"></td>
-                    <td >组<input class="aqgroup" type="text"></td>
-                    <td class="aqcreat">创建/修改<img src="../images/png/glyphicons-191-plus-sign.png"></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="paging" id="page_5">
-            <h3 class="paging_head"><span class="back_main">主页</span>><span>改题查询</span></h3>
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th colspan="2" class="search">
-                        <div class="input-prepend">
-                            <button type="submit" class="btn" id="search_id">Search ID</button>
-                            <input type="text" class="span2 search-query" id="input_id">
-                        </div>
-                    </th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr><td class="search_name">题目方向:</td><td  class="search_show" id="qs_1"></td></tr>
-                <tr><td class="search_name">题目名称:</td><td  class="search_show" id="qs_2"></td></tr>
-                <tr><td class="search_name">题目目的:</td><td  class="search_show" id="qs_3"></td></tr>
-                <tr><td class="search_name">题目完成者:</td><td class="search_show" id="qs_4"></td></tr>
-                <tr><td class="search_name">题目批改者:</td><td class="search_show" id="qs_5"></td></tr>
-                <tr><td class="search_name">分数:</td><td class="search_show" id="qs_6"></td></tr>
-                <tr><td class="search_name">评语:</td><td class="search_show" id="qs_7"></td></tr>
-                <tr><td class="search_name">下载</td><td class="search_shows" id="qs_8">点击下载</td></tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="page_show">
-            <h6>创联工作室</h6>
-            <h1 class="main_show">管理员操作界面</h1>
-        </div>
+    </div>
+
+    <div class="paging" id="page_5">
+        <h3 class="paging_head"><span class="back_main">主页</span>><span>改题查询</span></h3>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th colspan="2" class="search">
+                    <div class="input-prepend">
+                        <button type="submit" class="btn" id="search_id">Search ID</button>
+                        <input type="text" class="span2 search-query" id="input_id">
+                    </div>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="search_name">题目方向:</td>
+                <td class="search_show" id="qs_1"></td>
+            </tr>
+            <tr>
+                <td class="search_name">题目名称:</td>
+                <td class="search_show" id="qs_2"></td>
+            </tr>
+            <tr>
+                <td class="search_name">题目目的:</td>
+                <td class="search_show" id="qs_3"></td>
+            </tr>
+            <tr>
+                <td class="search_name">题目完成者:</td>
+                <td class="search_show" id="qs_4"></td>
+            </tr>
+            <tr>
+                <td class="search_name">题目批改者:</td>
+                <td class="search_show" id="qs_5"></td>
+            </tr>
+            <tr>
+                <td class="search_name">分数:</td>
+                <td class="search_show" id="qs_6"></td>
+            </tr>
+            <tr>
+                <td class="search_name">评语:</td>
+                <td class="search_show" id="qs_7"></td>
+            </tr>
+            <tr>
+                <td class="search_name">下载</td>
+                <td class="search_shows" id="qs_8">点击下载</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="page_show">
+        <h6>创联工作室</h6>
+        <h1 class="main_show">管理员操作界面</h1>
+    </div>
 </div>
 <script src="../js/admin_js.js" type="text/javascript"></script>
 </body>
