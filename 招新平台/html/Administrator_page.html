@@ -67,7 +67,7 @@
                 <label for="re_new_password">重复新密码:</label>
                 <input type="password" id="re_new_password" class="old_password">
             </div>
-            <input value="提交" id="password_submit" class="btn btn-default password_btn">
+            <input title="submit" value="提交" id="password_submit" class="btn btn-default password_btn">
         </form>
     </div>
 
@@ -126,7 +126,7 @@
             <div id="create_correct_form">
                 <div class="form-group">
                     <label class="creates">用户名
-                    <input class="correct_username form-control" type="text" placeholder="uesrname">
+                    <input class="correct_username form-control" type="text" placeholder="username">
                 </label>
                 </div>
                 <div class="form-group">
@@ -140,11 +140,11 @@
                     </label>
                 </div>
                 <div class="form-group">
-                    <label class="creates">描述
+                    <label class="creates">姓名
                         <input class="form-control correct_name" type="text" placeholder="name">
                     </label>
                 </div>
-                <button class="btn btn-default correct_add">添加</button>
+                <button class="btn btn-default" id="correct_add">添加</button>
             </div>
         </div>
 
@@ -155,7 +155,8 @@
     <div class="paging" id="page_4">
 
         <h3 class="paging_head"><span class="back_main">主页</span>><span>题目列表</span></h3>
-        <button class="btn btn-default cc_question">修改/创建题目</button>
+        <button class="btn btn-default cc_question">创建题目</button>
+        <button class="btn btn-default cs_question">修改题目</button>
         <table class="table table-hover gquestion">
             <thead>
             <tr>
@@ -231,15 +232,66 @@
                     </label>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile" class="afile">
+                    <label for="infile">File input</label>
+                    <input type="file" id="infile" class="afile">
                     <p class="help-block">请选择一个文件</p>
                 </div>
                 <button class="btn btn-default aqcreat">提交</button>
             </div>
         </div>
-        <div class="catch_s">
+
+        <div class="create_question_change">
+            <h5 class="detail_head">
+                <span class="detail_back_mains">主页</span>>
+                <span class="detail_back_news">题目列表</span>>
+                <span>修改题目</span>
+                <span class="detail_back_news back">返回</span>
+            </h5>
+            <div id="create_change">
+                <div class="form-group"><label class="creates">ID
+                    <input class="aqids form-control" type="text" placeholder="id">
+                </label>
+                </div>
+                <div class="form-group"><label class="creates">名称
+                    <input class="aqnames form-control" type="text" placeholder="name">
+                </label>
+                </div>
+                <div class="form-group">
+                    <label class="creates">等级
+                        <select class="form-control alevels">
+                            <option value="easy">简单</option>
+                            <option value="common">中等</option>
+                            <option value="hard">困难</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="creates">组别
+                        <select class="form-control aqgroups">
+                            <option value="front">前端</option>
+                            <option value="background">后台</option>
+                            <option value="ios">IOS</option>
+                            <option value="android">安卓</option>
+                            <option value="operation">经营</option>
+                            <option value="design">设计</option>
+                            <option value="product">产品</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="creates">描述
+                        <input class="aqdess form-control" type="text" placeholder="description">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="infile">File input</label>
+                    <input type="file" id="infiles" class="afiles">
+                    <p class="help-block">请选择一个文件</p>
+                </div>
+                <button class="btn btn-default aqcreats">提交</button>
+            </div>
         </div>
+        <div class="catch_s"></div>
     </div>
 
     <div class="paging" id="page_5">
@@ -250,7 +302,7 @@
                 <th colspan="2" class="search">
                     <div class="input-prepend">
                         <button type="submit" class="btn" id="search_id">Search ID</button>
-                        <input type="text" class="span2 search-query" id="input_id">
+                        <input title="sch" type="text" class="span2 search-query" id="input_id">
                     </div>
                 </th>
             </tr>
@@ -297,5 +349,6 @@
     </div>
 </div>
 <script src="../js/admin_js.js" type="text/javascript"></script>
+<script src="../js/mockjs.js" type="text/javascript"></script>
 </body>
 </html>

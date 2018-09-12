@@ -14,8 +14,7 @@ body {
     background: #eaeaea;
     width: 100%;
     height: 100%;
-    max-height: 1200px;
-    max-width: 1920px;
+    /*max-height: 1200px;*/
     min-width: 1280px;
     min-height: 730px;
 }
@@ -375,9 +374,23 @@ div.main div#page_2 table.main tbody td:nth-child(7), div.main div#page_2 table.
 div.main div#page_2 table.main tbody td, div.main div#page_2 table.main thead th {
     width: 20%;
 }
-
+div.main div#page_2 td.search_new{
+    text-align: center;
+}
+div.main div#page_2 td.search_new:hover{
+    background: #dddddd;
+    cursor: pointer;
+}
 img.head {
     height: 12px;
+}
+.new_comment{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+    max-width: 210px;
+    max-height: 57px;
 }
 
 div.main div#page_2 div.detail_page h4 {
@@ -627,13 +640,6 @@ div.main div#page_4 table tbody td, div.main div#page_4 table thead th {
     width: 16%;
 }
 
-/*div.main div#page_4 table tbody tr#create td{*/
-/*line-height: 100%;*/
-/*}*/
-/*div.main div#page_4 table tbody tr#create input{*/
-/*width: 80%;*/
-/*}*/
-
 div.main div#page_4 table img.up {
     transform: rotate(90deg);
     width: 8px;
@@ -693,13 +699,13 @@ div.main div#page_4 div.detail_page div.detail_des {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 }
-div.main div#page_4 div.create_question h4 {
+div.main div#page_4 div.create_question h4 ,div.main div#page_4 div.create_question_change h4 {
     width: 90%;
     height: 40px !important;
     margin: 5% 5% 0 5%;
 }
 
-div.main div#page_4 div.create_question {
+div.main div#page_4 div.create_question,div.main div#page_4 div.create_question_change {
     color: black;
     display: none;
     position: absolute;
@@ -708,11 +714,17 @@ div.main div#page_4 div.create_question {
 }
 div.main div#page_4 button.cc_question{
     float: right;
-    margin: 0 5% 0 5% !important;
+    margin: 0 5% 0 0 !important;
     padding: 8px;
     opacity:0.7;
 }
-div.main div#page_4 div.create_question h5.detail_head {
+div.main div#page_4 button.cs_question{
+    float: right;
+    margin: 0 1% 0 0 !important;
+    padding: 8px;
+    opacity:0.7;
+}
+div.main div#page_4 div.create_question h5.detail_head ,div.main div#page_4 div.create_question_change h5.detail_head{
     width: 100%;
     font-weight: 300;
     padding: 10px;
@@ -722,12 +734,12 @@ div.main div#page_4 div.create_question h5.detail_head {
     color: #888888;
     background: #FFFFFF;
 }
-div.main div#page_4 div.create_question h5.detail_head span:hover {
+div.main div#page_4 div.create_question h5.detail_head span:hover, div.main div#page_4 div.create_question_change h5.detail_head span:hover{
     cursor: pointer;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 }
 
-div.main div#page_4 div.create_question div#create {
+div.main div#page_4 div.create_question div#create,div.main div#page_4 div.create_question_change div#create_change {
     position: absolute;
     left: 50%;
     top: 10%;
@@ -741,8 +753,12 @@ div.main div#page_4 div.create_question div#create {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 }
-div.main div#page_4 div.create_question div#create input{
+div.main div#page_4 div.create_question div#create input,div#create_change input{
     width: 400px;
+}
+div.main div#page_4 table.gquestion td.q_change:hover{
+    background: #dddddd;
+    cursor: pointer;
 }
 
 
