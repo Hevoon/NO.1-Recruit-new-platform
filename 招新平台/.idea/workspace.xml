@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/admin_ajax.js" line="153" />
+    <bookmark url="file://$PROJECT_DIR$/js/admin_ajax.js" line="176" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8154927f-8d31-4480-a792-13eb7ec8cb08" name="Default" comment="" />
@@ -15,40 +15,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Administrator page.html" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="372">
-                    <caret line="226" column="22" selection-start-line="226" selection-start-column="22" selection-end-line="226" selection-end-column="22" />
-                    <folding>
-                      <element signature="e#1171#1177#1" expanded="true" />
-                      <element signature="e#1882#1888#0" expanded="true" />
-                      <element signature="e#2028#2034#0" expanded="true" />
-                      <element signature="e#2165#2171#0" expanded="true" />
-                      <element signature="e#2336#2342#0" expanded="true" />
-                      <element signature="e#2489#2495#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin_ajax.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin_ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/admin_ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5255">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="7555">
+              <caret line="608" column="36" lean-forward="true" selection-start-line="608" selection-start-column="36" selection-end-line="608" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mockjs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/mockjs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1581">
+              <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Administrator_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Administrator_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -56,17 +47,17 @@
       <file leaf-file-name="admin_js.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/admin_js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="99" column="56" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
+            <state relative-caret-position="850">
+              <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_css.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin_css.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/admin_css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3847">
-              <caret line="539" column="16" lean-forward="true" selection-start-line="539" selection-start-column="16" selection-end-line="539" selection-end-column="16" />
+            <state relative-caret-position="-34">
+              <caret line="241" column="21" lean-forward="true" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -98,10 +89,13 @@
         <option value="$PROJECT_DIR$/css/libs/normalize.css" />
         <option value="D:/新建文件夹 (2)/untitled4(1)/untitled4/1.html" />
         <option value="C:/AppServ/www/Ch6/php/demo4-post/post1.html" />
-        <option value="$PROJECT_DIR$/js/admin_js.js" />
-        <option value="$PROJECT_DIR$/css/admin_css.css" />
-        <option value="$PROJECT_DIR$/js/admin_ajax.js" />
+        <option value="$PROJECT_DIR$/html/jjj.html" />
         <option value="$PROJECT_DIR$/html/Administrator page.html" />
+        <option value="$PROJECT_DIR$/js/mockjs.js" />
+        <option value="$PROJECT_DIR$/html/Administrator_page.html" />
+        <option value="$PROJECT_DIR$/js/admin_js.js" />
+        <option value="$PROJECT_DIR$/js/admin_ajax.js" />
+        <option value="$PROJECT_DIR$/css/admin_css.css" />
       </list>
     </option>
   </component>
@@ -120,20 +114,45 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="7" />
+    <option name="y" value="7" />
     <option name="width" value="1805" />
-    <option name="height" value="1038" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="招新平台" type="b2602c69:ProjectViewProjectNode" />
+              <item name="招新平台" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="招新平台" type="b2602c69:ProjectViewProjectNode" />
+              <item name="招新平台" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="招新平台" type="b2602c69:ProjectViewProjectNode" />
+              <item name="招新平台" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="book mark&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -199,18 +218,25 @@
       <workItem from="1535942315205" duration="6341000" />
       <workItem from="1536142211564" duration="10729000" />
       <workItem from="1536229542939" duration="9671000" />
-      <workItem from="1536305162521" duration="6348000" />
+      <workItem from="1536305162521" duration="7161000" />
+      <workItem from="1536323132171" duration="910000" />
+      <workItem from="1536399756241" duration="10777000" />
+      <workItem from="1536473714767" duration="823000" />
+      <workItem from="1536475017433" duration="6583000" />
+      <workItem from="1536481937386" duration="173000" />
+      <workItem from="1536751181603" duration="101000" />
+      <workItem from="1536752188583" duration="5614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207496000" />
+    <option name="totallyTimeSpent" value="233290000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.6699219" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16145833" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50065106" side_tool="true" weight="0.32965517" />
@@ -240,22 +266,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/admin_ajax.js</url>
-          <line>262</line>
+          <line>349</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/admin_ajax.js</url>
+          <line>344</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/admin_ajax.js</url>
+          <line>330</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/AppServ/www/Ch6/php/demo3-get/xxxx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/login_page_3.css" />
     <entry file="file://$PROJECT_DIR$/css/admin_css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6205">
@@ -263,7 +291,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
+    <entry file="file://$PROJECT_DIR$/html/Administrator_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="156" column="21" lean-forward="true" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
@@ -294,7 +322,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
+    <entry file="file://$PROJECT_DIR$/html/Administrator_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
@@ -325,7 +353,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
+    <entry file="file://$PROJECT_DIR$/html/Administrator_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
@@ -346,7 +374,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
+    <entry file="file://$PROJECT_DIR$/html/Administrator_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
@@ -367,7 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
+    <entry file="file://$PROJECT_DIR$/html/Administrator_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
@@ -392,7 +420,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/new one.html" />
-    <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
+    <entry file="file://$PROJECT_DIR$/html/Administrator_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -432,9 +460,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/login_page.html" />
-    <entry file="file://$PROJECT_DIR$/css/libs/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/libs/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -487,39 +512,52 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/new one.html" />
-    <entry file="file://$PROJECT_DIR$/js/admin_ajax.js">
+    <entry file="file://$PROJECT_DIR$/html/jjj.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5255">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="17">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/admin_js.js">
+    <entry file="file://$PROJECT_DIR$/css/libs/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="99" column="56" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
+        <state relative-caret-position="17">
+          <caret line="428" column="1" selection-start-line="428" selection-start-column="1" selection-end-line="428" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/admin_css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3847">
-          <caret line="539" column="16" lean-forward="true" selection-start-line="539" selection-start-column="16" selection-end-line="539" selection-end-column="16" />
+        <state relative-caret-position="-34">
+          <caret line="241" column="21" lean-forward="true" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Administrator page.html">
+    <entry file="file://$PROJECT_DIR$/js/admin_js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="226" column="22" selection-start-line="226" selection-start-column="22" selection-end-line="226" selection-end-column="22" />
-          <folding>
-            <element signature="e#1171#1177#1" expanded="true" />
-            <element signature="e#1882#1888#0" expanded="true" />
-            <element signature="e#2028#2034#0" expanded="true" />
-            <element signature="e#2165#2171#0" expanded="true" />
-            <element signature="e#2336#2342#0" expanded="true" />
-            <element signature="e#2489#2495#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="850">
+          <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mockjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Administrator_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/admin_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7555">
+          <caret line="608" column="36" lean-forward="true" selection-start-line="608" selection-start-column="36" selection-end-line="608" selection-end-column="36" />
         </state>
       </provider>
     </entry>
